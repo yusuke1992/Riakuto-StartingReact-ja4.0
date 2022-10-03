@@ -68,7 +68,7 @@
       "stylelint --fix --quiet"
     ],
     "src/**/*.{html,json,gql,graphql}": [
-      "prettier --write --loglevel=error"
+      "prettier --write --loglevel=warn"
     ]
   },
   "simple-git-hooks": {
