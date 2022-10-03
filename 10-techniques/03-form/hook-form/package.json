@@ -57,8 +57,5 @@
     "typescript": "^4.8.2",
     "vite": "^3.0.9",
     "vite-tsconfig-paths": "^3.5.0"
-  },
-  "simple-git-hooks": {
-    "pre-commit": ". ./lint-staged-each.sh"
   }
 }
