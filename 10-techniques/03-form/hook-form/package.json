@@ -59,18 +59,7 @@
     "vite": "^3.0.9",
     "vite-tsconfig-paths": "^3.5.0"
   },
-  // "lint-staged": {
-  //   "src/**/*.{js,jsx,ts,tsx}": [
-  //     "prettier --write --loglevel=warn",
-  //     "eslint --fix --quiet"
-  //   ],
-  //   "src/**/*.{css,less,sass,scss}": [
-  //     "stylelint --fix --quiet"
-  //   ],
-  //   "src/**/*.{html,json,gql,graphql}": [
-  //     "prettier --write --loglevel=warn"
-  //   ]
-  // },
+  "lint-staged": {},
   "simple-git-hooks": {
     "pre-commit": ". ./lint-staged-each.sh"
   }
